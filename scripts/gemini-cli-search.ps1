@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Gemini Brain Skill - Invoke Gemini CLI for deep research
+    gemini-cli-search - Invoke Gemini CLI for deep research
 .DESCRIPTION
     Google Search Grounding with citations. Windows PowerShell version.
 #>
@@ -28,7 +28,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 function Show-Help {
-    Write-Host 'Usage: gemini-brain.ps1 "<query>" [options]'
+    Write-Host 'Usage: gemini-cli-search.ps1 "<query>" [options]'
     Write-Host ''
     Write-Host 'Options:'
     Write-Host '  -Search (-s)           Enable Google Search Grounding'
@@ -38,10 +38,10 @@ function Show-Help {
     Write-Host '  -Help (-h)             Show this help'
     Write-Host ''
     Write-Host 'Examples:'
-    Write-Host '  .\gemini-brain.ps1 "Analyze AI Agent trends in 2026" -Search'
-    Write-Host '  .\gemini-brain.ps1 "Review code vulnerabilities" -Files src/main.py,src/utils.py'
-    Write-Host '  .\gemini-brain.ps1 "Search latest security practices" -Files app.js -Search'
-    Write-Host '  .\gemini-brain.ps1 "Research topic" -Search -Json'
+    Write-Host '  .\gemini-cli-search.ps1 "Analyze AI Agent trends in 2026" -Search'
+    Write-Host '  .\gemini-cli-search.ps1 "Review code vulnerabilities" -Files src/main.py,src/utils.py'
+    Write-Host '  .\gemini-cli-search.ps1 "Search latest security practices" -Files app.js -Search'
+    Write-Host '  .\gemini-cli-search.ps1 "Research topic" -Search -Json'
 }
 
 if ($Help) {

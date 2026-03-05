@@ -27,12 +27,12 @@
 
 **第一轮 - 广泛搜索**：
 ```bash
-gemini-brain "深度调研 OpenClaw AI 助手的安全架构、已知漏洞、官方安全建议" --search
+gemini-cli-search "深度调研 OpenClaw AI 助手的安全架构、已知漏洞、官方安全建议" --search
 ```
 
 **第二轮 - 深入特定主题**：
 ```bash
-gemini-brain "深入研究 CVE-2026-25253 漏洞详情、供应链风险、MCP 协议攻击场景" --search
+gemini-cli-search "深入研究 CVE-2026-25253 漏洞详情、供应链风险、MCP 协议攻击场景" --search
 ```
 
 **第三轮 - 精准获取**：

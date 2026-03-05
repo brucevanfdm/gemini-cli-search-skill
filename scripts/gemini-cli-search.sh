@@ -15,7 +15,7 @@ FILES=()
 # 显示帮助信息
 show_help() {
   cat << 'EOF'
-用法: gemini-brain.sh "<查询内容>" [选项]
+用法: gemini-cli-search.sh "<查询内容>" [选项]
 
 选项:
   -s, --search          启用 Google Search Grounding（在查询中添加搜索指令）
@@ -26,16 +26,16 @@ show_help() {
 
 示例:
   # 深度研究并启用搜索
-  gemini-brain.sh "分析2026年AI安全趋势" --search
+  gemini-cli-search.sh "分析2026年AI安全趋势" --search
 
   # 分析代码文件
-  gemini-brain.sh "分析这段代码的漏洞" --files src/main.py src/utils.py
+  gemini-cli-search.sh "分析这段代码的漏洞" --files src/main.py src/utils.py
 
   # 搜索+文件混合分析
-  gemini-brain.sh "基于代码搜索最新安全实践" --files app.js --search
+  gemini-cli-search.sh "基于代码搜索最新安全实践" --files app.js --search
 
   # JSON 输出（用于自动化）
-  gemini-brain.sh "研究主题" --search --json
+  gemini-cli-search.sh "研究主题" --search --json
 EOF
 }
 

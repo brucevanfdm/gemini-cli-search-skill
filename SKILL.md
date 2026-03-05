@@ -38,7 +38,7 @@ gemini auth login
 ### 命令行参数
 
 ```
-gemini-brain "<查询内容>" [选项]
+gemini-cli-search "<查询内容>" [选项]
 
 选项:
   -s, --search          启用 Google Search Grounding
