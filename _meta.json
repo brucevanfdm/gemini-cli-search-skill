@@ -1,0 +1,10 @@
+{
+  "name": "gemini-cli-search",
+  "version": "1.1.0",
+  "description": "Google Gemini CLI for deep research and web-grounded search with citations",
+  "author": "Bruce",
+  "bin": {
+    "gemini-cli-search": "scripts/gemini-cli-search.sh",
+    "gemini-cli-search-ps": "scripts/gemini-cli-search.ps1"
+  }
+}
