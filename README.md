@@ -1,6 +1,6 @@
 # gemini-cli-search
 
-一个 [openClaw](https://github.com/your-username/openClaw) skill，让 AI 能够调用 Google Gemini CLI 进行深度研究和实时网络搜索，获得带引用的分析结果。
+一个 openClaw skill，让 AI 能够调用 Google Gemini CLI 进行深度研究和实时网络搜索，获得带引用的分析结果。
 
 ## 能做什么
 
@@ -25,7 +25,7 @@
 
 将此仓库链接发给 openClaw，让它自动完成安装：
 
-> 帮我安装这个 skill：`https://github.com/your-username/gemini-cli-search-skill`
+> 帮我安装这个 skill：`https://github.com/brucevanfdm/gemini-cli-search-skill`
 
 ## 使用方式
 
