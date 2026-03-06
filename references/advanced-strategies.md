@@ -36,12 +36,15 @@ gemini-cli-search "深入研究 CVE-2026-25253 漏洞详情、供应链风险、
 ```
 
 **第三轮 - 精准获取**：
+
+从第二轮 Gemini 输出中提取具体 URL（官方文档、GitHub 项目页、CVE 详情页等），然后用 `WebFetch` 获取原文：
+
 ```bash
-# 用 web_fetch 获取官方文档原文
-web_fetch "https://docs.example.com/security"
-# 获取项目详情
-web_fetch "https://github.com/example/security-tool"
+# 示例：获取 Gemini 搜索结果中提到的具体链接
+WebFetch "<从 Gemini 输出中提取的实际 URL>"
 ```
+
+> 注意：不要凭空构造 URL。只 fetch Gemini 搜索结果中明确给出的链接。
 
 ## 策略优势
 
