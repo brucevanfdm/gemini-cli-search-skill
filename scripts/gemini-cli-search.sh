@@ -139,4 +139,4 @@ if [[ "$OUTPUT_FORMAT" == "json" ]]; then
 fi
 
 # 执行 Gemini CLI（非交互式模式）
-gemini -p "$FULL_PROMPT" "${GEMINI_ARGS[@]}" 2>&1
+gemini -p "$FULL_PROMPT" "${GEMINI_ARGS[@]+"${GEMINI_ARGS[@]}"}" 2>&1
